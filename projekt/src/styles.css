@@ -1,0 +1,150 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.home {
+    text-align: center;
+}
+
+.primary-title {
+    color: #333;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.primary-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff5a5f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.primary-button:hover {
+    background-color: #ff3b3f;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.games-list {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.games-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.games-list li {
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.games-list li:hover {
+    background-color: #f1f1f1;
+}
+
+.game-details {
+    flex: 2;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.popup {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -2px 0 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.popup h2 {
+    margin-top: 0;
+}
+
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.popup-content h3 {
+    margin-bottom: 10px;
+}
+
+.popup-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.popup-content li {
+    margin-bottom: 10px;
+}
+
+
+/* Existing styles ... */
+
+.popup-content p {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  .popup-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .popup-content ul li {
+    margin-bottom: 10px;
+  }
+  
+  .popup-content h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .fa-star {
+    color: gold;
+    margin-right: 5px;
+  }
+  
